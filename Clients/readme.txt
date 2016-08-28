@@ -1,1 +1,0 @@
-1.http请求springmvc,主要是方便http  client端各种参数的设置；
