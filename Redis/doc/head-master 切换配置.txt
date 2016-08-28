@@ -1,0 +1,41 @@
+Java 链接代码请参考com.sun.master2slave中的内容；
+一。
+使用的redis 版本号为3.2.6；
+
+3个redis服务器,配置主从；
+
+
+redis master  127.0.0.1  6379 (1)
+
+redis slave  127.0.0.1  6390  (2)
+
+redis slave  127.0.0.1  6391  (3)
+
+
+
+(1)只需要改动端口号，其余的不用做任何改动。
+
+(2)(3)除了修改端口号，添加一句话  slaveof 127.0.0.1 6379  也就是master的IP和端口；
+
+
+二.
+3个sentinel服务器。如果master宕机了，sentinel可以实现主从切换。  sentinel 启动命令：redis-sentinel.sh   sentinel.conf
+
+sentinel 1:修改sentinel.conf 中的端口，然后修改命令：sentinel monitor mymaster 127.0.0.1 6379 2  （主redis的IP和端口）；
+
+sentinel 2:修改sentinel.conf 中的端口，然后修改命令：sentinel monitor mymaster 127.0.0.1 6379 2  （主redis的IP和端口）；
+
+sentinel 3:修改sentinel.conf 中的端口，然后修改命令：sentinel monitor mymaster 127.0.0.1 6379 2  （主redis的IP和端口）；  
+
+
+
+配置完成。
+查看主从状态请使用命令：info。可以看出来到底是master还是slave；
+
+如果宕机想要重新加入redis-cluster 中，需要添加slaveof 主redisIP  主redis端口号
+
+
+
+特别注意：
+1.在配置Redis的sentinel.conf文件时注意使用外部可以访问的ip地址，因为当redis-sentinel服务和redis-server在同一台机器的时候，主服务发生变化时配置文件中将主服务ip变为127.0.0.1，这样外部就无法访问了。
+2.发生master迁移后，如果遇到运维需要，想重启所有redis，必须最先重启“新的”master节点，否则sentinel会一直找不到master。
