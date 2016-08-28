@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="com/alibaba/dubbo/demo/pp/DemoService.java|com/alibaba/dubbo/demo/pp/User.java" kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="com.genuitec.eclipse.j2eedt.core.J2EE14_CONTAINER"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/commons-lang-2.3.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/commons-logging-1.1.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/commons-logging-api-1.1.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/dubbo-2.5.2.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/dubbo-admin-2.5.2-sources.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/dubbo-demo-consumer-2.5.2-sources.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/dubbo-registry-simple-2.5.2-sources.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/javassist-3.4.GA.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/netty-3.2.5.Final.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/spring-aop.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/spring-beans.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/spring-context-support.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/spring-context.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/spring-core.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/spring-jdbc.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/spring-jms.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/spring-orm.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/spring-test.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/spring-tx.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/spring-web.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/spring-webmvc-portlet.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/spring-webmvc-struts.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/spring-webmvc.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/spring.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/zkclient-0.1.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/zookeeper-3.4.5.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/log4j-1.2.12.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/slf4j-api-1.6.1.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/slf4j-log4j12-1.6.1.jar"/>
+	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
+</classpath>
