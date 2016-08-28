@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="dubboprovider"
+  id="myeclipse.1364873319203"
+  context-root="/dubboprovider"
+  j2ee-spec="1.4"
+  archive="dubboprovider.war">
+  <attributes>
+    <attribute name="webrootdir" value="/WebRoot" />
+  </attributes>
+</project-module>
+

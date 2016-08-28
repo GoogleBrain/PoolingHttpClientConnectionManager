@@ -1,0 +1,59 @@
+2016-08-28 13:47:39,507 - INFO  [main:QuorumPeerConfig@90] - Reading configuration from: /usr/local/dubbo/zookeeper-3.3.6/bin/../conf/zoo.cfg
+2016-08-28 13:47:39,514 - WARN  [main:QuorumPeerMain@105] - Either no config or no quorum defined in config, running  in standalone mode
+2016-08-28 13:47:39,539 - INFO  [main:QuorumPeerConfig@90] - Reading configuration from: /usr/local/dubbo/zookeeper-3.3.6/bin/../conf/zoo.cfg
+2016-08-28 13:47:39,540 - INFO  [main:ZooKeeperServerMain@94] - Starting server
+2016-08-28 13:47:39,553 - INFO  [main:Environment@97] - Server environment:zookeeper.version=3.3.6-1366786, built on 07/29/2012 06:22 GMT
+2016-08-28 13:47:39,553 - INFO  [main:Environment@97] - Server environment:host.name=google
+2016-08-28 13:47:39,554 - INFO  [main:Environment@97] - Server environment:java.version=1.7.0_79
+2016-08-28 13:47:39,555 - INFO  [main:Environment@97] - Server environment:java.vendor=Oracle Corporation
+2016-08-28 13:47:39,555 - INFO  [main:Environment@97] - Server environment:java.home=/usr/local/jdk1.7.0_79/jre
+2016-08-28 13:47:39,556 - INFO  [main:Environment@97] - Server environment:java.class.path=/usr/local/dubbo/zookeeper-3.3.6/bin/../build/classes:/usr/local/dubbo/zookeeper-3.3.6/bin/../build/lib/*.jar:/usr/local/dubbo/zookeeper-3.3.6/bin/../zookeeper-3.3.6.jar:/usr/local/dubbo/zookeeper-3.3.6/bin/../lib/log4j-1.2.15.jar:/usr/local/dubbo/zookeeper-3.3.6/bin/../lib/jline-0.9.94.jar:/usr/local/dubbo/zookeeper-3.3.6/bin/../src/java/lib/*.jar:/usr/local/dubbo/zookeeper-3.3.6/bin/../conf:.:/usr/local/jdk1.7.0_79/lib/tools.jar
+2016-08-28 13:47:39,556 - INFO  [main:Environment@97] - Server environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2016-08-28 13:47:39,557 - INFO  [main:Environment@97] - Server environment:java.io.tmpdir=/tmp
+2016-08-28 13:47:39,558 - INFO  [main:Environment@97] - Server environment:java.compiler=<NA>
+2016-08-28 13:47:39,558 - INFO  [main:Environment@97] - Server environment:os.name=Linux
+2016-08-28 13:47:39,559 - INFO  [main:Environment@97] - Server environment:os.arch=amd64
+2016-08-28 13:47:39,559 - INFO  [main:Environment@97] - Server environment:os.version=4.4.0-34-generic
+2016-08-28 13:47:39,560 - INFO  [main:Environment@97] - Server environment:user.name=google
+2016-08-28 13:47:39,561 - INFO  [main:Environment@97] - Server environment:user.home=/home/google
+2016-08-28 13:47:39,562 - INFO  [main:Environment@97] - Server environment:user.dir=/usr/local/dubbo/zookeeper-3.3.6/bin
+2016-08-28 13:47:39,577 - INFO  [main:ZooKeeperServer@673] - tickTime set to 2000
+2016-08-28 13:47:39,578 - INFO  [main:ZooKeeperServer@682] - minSessionTimeout set to -1
+2016-08-28 13:47:39,578 - INFO  [main:ZooKeeperServer@691] - maxSessionTimeout set to -1
+2016-08-28 13:47:39,601 - INFO  [main:NIOServerCnxn$Factory@143] - binding to port 0.0.0.0/0.0.0.0:2181
+2016-08-28 13:47:39,627 - INFO  [main:FileSnap@82] - Reading snapshot /home/google/data/version-2/snapshot.90
+2016-08-28 13:47:39,661 - INFO  [main:FileTxnSnapLog@256] - Snapshotting: b9
+2016-08-28 13:48:01,148 - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn$Factory@251] - Accepted socket connection from /127.0.0.1:39364
+2016-08-28 13:48:01,150 - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@634] - EndOfStreamException: Unable to read additional data from client sessionid 0x0, likely client has closed socket
+2016-08-28 13:48:01,151 - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1435] - Closed socket connection for client /127.0.0.1:39364 (no session established for client)
+2016-08-28 13:48:01,845 - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn$Factory@251] - Accepted socket connection from /127.0.0.1:39366
+2016-08-28 13:48:01,853 - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@777] - Client attempting to establish new session at /127.0.0.1:39366
+2016-08-28 13:48:01,854 - INFO  [SyncThread:0:FileTxnLog@199] - Creating new log file: log.ba
+2016-08-28 13:48:01,862 - INFO  [SyncThread:0:NIOServerCnxn@1580] - Established session 0x156cfb067160000 with negotiated timeout 30000 for client /127.0.0.1:39366
+2016-08-28 13:48:01,904 - INFO  [ProcessThread:-1:PrepRequestProcessor@419] - Got user-level KeeperException when processing sessionid:0x156cfb067160000 type:create cxid:0x1 zxid:0xfffffffffffffffe txntype:unknown reqpath:n/a Error Path:/dubbo Error:KeeperErrorCode = NodeExists for /dubbo
+2016-08-28 13:48:01,922 - INFO  [ProcessThread:-1:PrepRequestProcessor@419] - Got user-level KeeperException when processing sessionid:0x156cfb067160000 type:create cxid:0x2 zxid:0xfffffffffffffffe txntype:unknown reqpath:n/a Error Path:/dubbo/com.unj.dubbotest.provider.DemoService Error:KeeperErrorCode = NodeExists for /dubbo/com.unj.dubbotest.provider.DemoService
+2016-08-28 13:48:01,930 - INFO  [ProcessThread:-1:PrepRequestProcessor@419] - Got user-level KeeperException when processing sessionid:0x156cfb067160000 type:create cxid:0x3 zxid:0xfffffffffffffffe txntype:unknown reqpath:n/a Error Path:/dubbo/com.unj.dubbotest.provider.DemoService/providers Error:KeeperErrorCode = NodeExists for /dubbo/com.unj.dubbotest.provider.DemoService/providers
+2016-08-28 13:48:01,956 - INFO  [ProcessThread:-1:PrepRequestProcessor@419] - Got user-level KeeperException when processing sessionid:0x156cfb067160000 type:create cxid:0x5 zxid:0xfffffffffffffffe txntype:unknown reqpath:n/a Error Path:/dubbo Error:KeeperErrorCode = NodeExists for /dubbo
+2016-08-28 13:48:01,958 - INFO  [ProcessThread:-1:PrepRequestProcessor@419] - Got user-level KeeperException when processing sessionid:0x156cfb067160000 type:create cxid:0x6 zxid:0xfffffffffffffffe txntype:unknown reqpath:n/a Error Path:/dubbo/com.unj.dubbotest.provider.DemoService Error:KeeperErrorCode = NodeExists for /dubbo/com.unj.dubbotest.provider.DemoService
+2016-08-28 13:48:01,960 - INFO  [ProcessThread:-1:PrepRequestProcessor@419] - Got user-level KeeperException when processing sessionid:0x156cfb067160000 type:create cxid:0x7 zxid:0xfffffffffffffffe txntype:unknown reqpath:n/a Error Path:/dubbo/com.unj.dubbotest.provider.DemoService/configurators Error:KeeperErrorCode = NodeExists for /dubbo/com.unj.dubbotest.provider.DemoService/configurators
+2016-08-28 13:48:10,000 - INFO  [SessionTracker:ZooKeeperServer@316] - Expiring session 0x1566a5a4a750000, timeout of 30000ms exceeded
+2016-08-28 13:48:10,001 - INFO  [ProcessThread:-1:PrepRequestProcessor@399] - Processed session termination for sessionid: 0x1566a5a4a750000
+2016-08-28 13:48:21,320 - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn$Factory@251] - Accepted socket connection from /127.0.0.1:39370
+2016-08-28 13:48:21,326 - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@777] - Client attempting to establish new session at /127.0.0.1:39370
+2016-08-28 13:48:21,327 - INFO  [SyncThread:0:NIOServerCnxn@1580] - Established session 0x156cfb067160001 with negotiated timeout 30000 for client /127.0.0.1:39370
+2016-08-28 13:48:21,416 - INFO  [ProcessThread:-1:PrepRequestProcessor@419] - Got user-level KeeperException when processing sessionid:0x156cfb067160001 type:create cxid:0x1 zxid:0xfffffffffffffffe txntype:unknown reqpath:n/a Error Path:/dubbo Error:KeeperErrorCode = NodeExists for /dubbo
+2016-08-28 13:48:21,429 - INFO  [ProcessThread:-1:PrepRequestProcessor@419] - Got user-level KeeperException when processing sessionid:0x156cfb067160001 type:create cxid:0x2 zxid:0xfffffffffffffffe txntype:unknown reqpath:n/a Error Path:/dubbo/com.unj.dubbotest.provider.DemoService Error:KeeperErrorCode = NodeExists for /dubbo/com.unj.dubbotest.provider.DemoService
+2016-08-28 13:48:21,431 - INFO  [ProcessThread:-1:PrepRequestProcessor@419] - Got user-level KeeperException when processing sessionid:0x156cfb067160001 type:create cxid:0x3 zxid:0xfffffffffffffffe txntype:unknown reqpath:n/a Error Path:/dubbo/com.unj.dubbotest.provider.DemoService/consumers Error:KeeperErrorCode = NodeExists for /dubbo/com.unj.dubbotest.provider.DemoService/consumers
+2016-08-28 13:48:21,437 - INFO  [ProcessThread:-1:PrepRequestProcessor@419] - Got user-level KeeperException when processing sessionid:0x156cfb067160001 type:create cxid:0x5 zxid:0xfffffffffffffffe txntype:unknown reqpath:n/a Error Path:/dubbo Error:KeeperErrorCode = NodeExists for /dubbo
+2016-08-28 13:48:21,439 - INFO  [ProcessThread:-1:PrepRequestProcessor@419] - Got user-level KeeperException when processing sessionid:0x156cfb067160001 type:create cxid:0x6 zxid:0xfffffffffffffffe txntype:unknown reqpath:n/a Error Path:/dubbo/com.unj.dubbotest.provider.DemoService Error:KeeperErrorCode = NodeExists for /dubbo/com.unj.dubbotest.provider.DemoService
+2016-08-28 13:48:21,441 - INFO  [ProcessThread:-1:PrepRequestProcessor@419] - Got user-level KeeperException when processing sessionid:0x156cfb067160001 type:create cxid:0x7 zxid:0xfffffffffffffffe txntype:unknown reqpath:n/a Error Path:/dubbo/com.unj.dubbotest.provider.DemoService/providers Error:KeeperErrorCode = NodeExists for /dubbo/com.unj.dubbotest.provider.DemoService/providers
+2016-08-28 13:48:21,455 - INFO  [ProcessThread:-1:PrepRequestProcessor@419] - Got user-level KeeperException when processing sessionid:0x156cfb067160001 type:create cxid:0xa zxid:0xfffffffffffffffe txntype:unknown reqpath:n/a Error Path:/dubbo Error:KeeperErrorCode = NodeExists for /dubbo
+2016-08-28 13:48:21,457 - INFO  [ProcessThread:-1:PrepRequestProcessor@419] - Got user-level KeeperException when processing sessionid:0x156cfb067160001 type:create cxid:0xb zxid:0xfffffffffffffffe txntype:unknown reqpath:n/a Error Path:/dubbo/com.unj.dubbotest.provider.DemoService Error:KeeperErrorCode = NodeExists for /dubbo/com.unj.dubbotest.provider.DemoService
+2016-08-28 13:48:21,459 - INFO  [ProcessThread:-1:PrepRequestProcessor@419] - Got user-level KeeperException when processing sessionid:0x156cfb067160001 type:create cxid:0xc zxid:0xfffffffffffffffe txntype:unknown reqpath:n/a Error Path:/dubbo/com.unj.dubbotest.provider.DemoService/configurators Error:KeeperErrorCode = NodeExists for /dubbo/com.unj.dubbotest.provider.DemoService/configurators
+2016-08-28 13:48:21,483 - INFO  [ProcessThread:-1:PrepRequestProcessor@419] - Got user-level KeeperException when processing sessionid:0x156cfb067160001 type:create cxid:0xf zxid:0xfffffffffffffffe txntype:unknown reqpath:n/a Error Path:/dubbo Error:KeeperErrorCode = NodeExists for /dubbo
+2016-08-28 13:48:21,497 - INFO  [ProcessThread:-1:PrepRequestProcessor@419] - Got user-level KeeperException when processing sessionid:0x156cfb067160001 type:create cxid:0x10 zxid:0xfffffffffffffffe txntype:unknown reqpath:n/a Error Path:/dubbo/com.unj.dubbotest.provider.DemoService Error:KeeperErrorCode = NodeExists for /dubbo/com.unj.dubbotest.provider.DemoService
+2016-08-28 13:48:21,501 - INFO  [ProcessThread:-1:PrepRequestProcessor@419] - Got user-level KeeperException when processing sessionid:0x156cfb067160001 type:create cxid:0x11 zxid:0xfffffffffffffffe txntype:unknown reqpath:n/a Error Path:/dubbo/com.unj.dubbotest.provider.DemoService/routers Error:KeeperErrorCode = NodeExists for /dubbo/com.unj.dubbotest.provider.DemoService/routers
+2016-08-28 13:48:23,898 - INFO  [ProcessThread:-1:PrepRequestProcessor@399] - Processed session termination for sessionid: 0x156cfb067160001
+2016-08-28 13:48:23,900 - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1435] - Closed socket connection for client /127.0.0.1:39370 which had sessionid 0x156cfb067160001
+2016-08-28 13:48:25,070 - INFO  [ProcessThread:-1:PrepRequestProcessor@399] - Processed session termination for sessionid: 0x156cfb067160000
+2016-08-28 13:48:25,077 - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1435] - Closed socket connection for client /127.0.0.1:39366 which had sessionid 0x156cfb067160000
